@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tour Guide AI 🌍</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Import map for @google/generative-ai -->
+  <script type="importmap">
+    {
+      "imports": {
+        "@google/generative-ai": "https://esm.run/@google/generative-ai"
+      }
+    }
+  </script>
+
+  <!-- ✅ Load module script (no duplicate below) -->
+  <script type="module" src="script.js"></script>
+</head>
+<body>
+  <div class="background-overlay">
+    <div class="hero">
+      <h1>Tour Guide AI 🌍</h1>
+      <p>Ask me about any city, food, or culture!</p>
+    </div>
+
+    <div class="chat-container">
+      <div id="chatbox">
+        <div class="bot">Hi! I'm your AI Tour Guide. Ask me anything 🌐</div>
+      </div>
+      <div class="input-area">
+        <input type="text" id="placeInput" placeholder="Type a place or query..." />
+        <button id="sendBtn">Send</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
