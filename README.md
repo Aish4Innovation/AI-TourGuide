@@ -2,7 +2,7 @@
 
 ![image](https://github.com/user-attachments/assets/2e85e264-c227-4513-a289-1cbde7cf78f2)
 
-## ✨ Features
+## ✨ Features ♥
 
 - Ask about **any place** in the world
 - Get summaries including **culture, attractions, and food**
